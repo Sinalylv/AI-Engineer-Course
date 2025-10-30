@@ -1,9 +1,28 @@
-# Virtual environment
+# -----------------------------
+# Virtual environment, caches, binaries
+# -----------------------------
 .venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
 
-# Ignore content files
+# -----------------------------
+# Dataset and output files
+# -----------------------------
+dataset/
+output/
+logs/
+
+# -----------------------------
+# Documentation, presentations, scripts
+# -----------------------------
 *.pptx
 *.pdf
-*/Content/
 
-# Ignore notebooks
+# -----------------------------
+# Optional: IDE/editor settings
+# -----------------------------
+.vscode/
+.idea/
